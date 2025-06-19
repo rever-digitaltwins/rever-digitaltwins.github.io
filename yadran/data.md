@@ -4,7 +4,7 @@
 
   - [PR1-Piscicultura Los Tilcos-C-0](./pisc-lostilcos/index.html)
   - [PR9-Piscicultura Aguas Buenas-C-0](./pisc-aguasbuenas/index.html)
-  - [PR10-Piscicultura Las Quemas-C-0](https://storage.net-fs.com/hosting/8065386/5/index.htm)
+  - [PR10-Piscicultura Las Quemas-C-0](./pisc-lasquemas/index.html)
 
 ## Centros de mar
 
