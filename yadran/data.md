@@ -13,7 +13,7 @@
     - [PR13-Centro de cultivo Gorro-C-0](./cc-gorro/index.htm)
     - [PR17-Centro de cultivo Leucayec-C-0](./cc-leucayec/index.htm)
 
-## Planta procesos
+## Planta de procesos
 
-  - [PR7-Planta Quellon-C-0](https://storage.net-fs.com/hosting/8065386/7/index.htm)
+  - [PR7-Planta Quellon-C-0](./planta-quellon/index.html)
 

@@ -1,0 +1,12 @@
+@font-face {
+   font-family: "Space Grotesk Medium";
+   src: url("fonts/Space Grotesk Medium.woff") format("woff"), url("fonts/Space Grotesk Medium.eot") format("embedded-opentype"), url("fonts/Space Grotesk Medium.ttf") format("truetype"), url("fonts/Space Grotesk Medium.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Young Serif";
+   src: url("fonts/Young Serif Regular.woff") format("woff"), url("fonts/Young Serif Regular.eot") format("embedded-opentype"), url("fonts/Young Serif Regular.ttf") format("truetype"), url("fonts/Young Serif Regular.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
