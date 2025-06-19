@@ -10,7 +10,8 @@
 
   - Centros de cultivo
 
-    - [PR13-Centro de cultivo Gorro-C-0](./ccgorro/index.htm)
+    - [PR13-Centro de cultivo Gorro-C-0](./cc-gorro/index.htm)
+    - [PR17-Centro de cultivo Leucayec-C-0](./cc-leucayec/index.htm)
 
 ## Planta procesos
 
