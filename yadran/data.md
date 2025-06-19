@@ -10,10 +10,7 @@
 
   - Centros de cultivo
 
-    - PR12-Centro de cultivo Queilen-C-0
     - [PR13-Centro de cultivo Gorro-C-0](./ccgorro/index.htm)
-    - PR15-Centro de cultivo Ensenada-C-0
-    - PR13-Centro de cultivo Gorro-C-0
 
 ## Planta procesos
 
