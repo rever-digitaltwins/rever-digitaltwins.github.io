@@ -1,0 +1,13 @@
+#: locale=es
+
+## Media
+
+### Título
+panorama_BE19D89B_8597_9B26_41B2_1C8B67671A0B.label = fondo_pano2
+
+## Tour
+
+### Descripción
+
+### Título
+tour.name = Gemelos Digitales
