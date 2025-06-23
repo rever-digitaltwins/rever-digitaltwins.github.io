@@ -12,6 +12,7 @@
 
     - [PR13-Centro de cultivo Gorro-C-0](./cc-gorro/index.htm)
     - [PR17-Centro de cultivo Leucayec-C-0](./cc-leucayec/index.htm)
+    - [PR17-Centro de cultivo Ensenada-C-0](./cc-ensenada/index.htm)
   
   - Pontones
 
