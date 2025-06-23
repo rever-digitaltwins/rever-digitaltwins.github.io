@@ -20,5 +20,5 @@
 
 ## Planta de procesos
 
-  - [PR7-Planta Quellon-C-0](./planta-quellon/index.html)
+  - [PR7-Planta Quellón-C-0](./planta-quellon/index.html)
 
