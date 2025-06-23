@@ -5,14 +5,14 @@
    font-style: normal;
 }
 @font-face {
-   font-family: "Space Mono";
-   src: url("fonts/Space Mono Regular.woff") format("woff"), url("fonts/Space Mono Regular.eot") format("embedded-opentype"), url("fonts/Space Mono Regular.ttf") format("truetype"), url("fonts/Space Mono Regular.svg") format("svg");
+   font-family: "Young Serif";
+   src: url("fonts/Young Serif Regular.woff") format("woff"), url("fonts/Young Serif Regular.eot") format("embedded-opentype"), url("fonts/Young Serif Regular.ttf") format("truetype"), url("fonts/Young Serif Regular.svg") format("svg");
    font-weight: normal;
    font-style: normal;
 }
 @font-face {
-   font-family: "Young Serif";
-   src: url("fonts/Young Serif Regular.woff") format("woff"), url("fonts/Young Serif Regular.eot") format("embedded-opentype"), url("fonts/Young Serif Regular.ttf") format("truetype"), url("fonts/Young Serif Regular.svg") format("svg");
+   font-family: "Space Mono";
+   src: url("fonts/Space Mono Regular.woff") format("woff"), url("fonts/Space Mono Regular.eot") format("embedded-opentype"), url("fonts/Space Mono Regular.ttf") format("truetype"), url("fonts/Space Mono Regular.svg") format("svg");
    font-weight: normal;
    font-style: normal;
 }
