@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REVER</title>
+  <link rel="shortcut icon" href="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBkYXRhLW5hbWU9IkNhcGEgMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTIxLjYyIDUyMS42MiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNhZjlhNmI7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTI2MC44MSw0OTcuNTksMzczLjYsMjRINDg1LjA1TDM0MS4xOCw0OTYuODNIMTgwLjQzTDM2LjU2LDI0SDE0OFoiLz48L3N2Zz4=" />
+
+  <!-- 1. Importación de las fuentes desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&family=Saira+Condensed:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    /* --- Variables para editar fácilmente --- */
+    :root {
+      --color-fondo: #100F2B; /* Mismo color de fondo que tu página principal */
+      --color-titulo: #AF9A6B;
+      --color-texto: white;
+      --fuente-titulo: 'Saira Condensed', sans-serif;
+      --fuente-texto: 'Manrope', sans-serif;
+    }
+    /* -------------------------------------- */
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: var(--fuente-texto);
+      background-color: var(--color-fondo);
+      color: var(--color-texto);
+      /* Centra el contenido vertical y horizontalmente */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 650px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: var(--fuente-titulo);
+      font-size: 3.5em; /* Tamaño del título */
+      font-weight: 700; /* Grosor de la fuente importada */
+      color: var(--color-titulo);
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 1.2em; /* Tamaño del texto del párrafo */
+      line-height: 1.6; /* Espacio entre líneas para mejor lectura */
+      color: var(--color-texto);
+    }
+    
+    /* Adaptación para móviles */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Respuesta Enviada</h1>
+    <p>
+      En unos minutos llegará a tu correo el PDF con las respuestas.
+      <br>
+      Pronto se redirigirá al formulario en blanco.
+    </p>
+  </div>
+
+  <script>
+    // 2. Lógica de redirección
+    (function() {
+      // URL a la que se redirigirá
+      const redirectUrl = 'https://form.jotform.com/251946294371060';
+
+      // Tiempo de espera en milisegundos (8 segundos = 8000 ms)
+      const delayInMilliseconds = 8000;
+
+      // Configura el temporizador para redirigir después del tiempo especificado
+      setTimeout(function() {
+        window.location.href = redirectUrl;
+      }, delayInMilliseconds);
+    })();
+  </script>
+
+</body>
+</html>
