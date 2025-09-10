@@ -2,7 +2,7 @@
 
 ## Pisciculturas
 
-  - [PR1-Piscicultura Los Tilcos-C-0](https://storage.net-fs.com/hosting/8065386/4/index.htm)
+  - [PR1-Piscicultura Los Tilcos-C-0](./pisc-los-tilcos/index.html)
   - [PR9-Piscicultura Aguas Buenas-C-0](https://storage.net-fs.com/hosting/8065386/6/index.htm)
   - [PR10-Piscicultura Las Quemas-C-0](https://storage.net-fs.com/hosting/8065386/5/index.htm)
 
@@ -10,8 +10,9 @@
 
   - Centros de cultivo
 
-    - [PR13-Centro de cultivo Gorro-C-0](./cc-gorro/index.htm)
-    - [PR17-Centro de cultivo Leucayec-C-0](./cc-leucayec/index.htm)
+    - [PR13-Centro de cultivo Queilen-C-0](https://storage.net-fs.com/hosting/8065386/20/index.htm)
+    - [PR13-Centro de cultivo Gorro-C-0](https://storage.net-fs.com/hosting/8065386/4/index.htm)
+    - [PR17-Centro de cultivo Leucayec-C-0](https://storage.net-fs.com/hosting/8065386/3/index.htm)
     - [PR17-Centro de cultivo Ensenada-C-0](./cc-ensenada/index.htm)
   
   - Pontones
