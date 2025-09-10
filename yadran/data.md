@@ -13,7 +13,7 @@
     - [PR13-Centro de cultivo Queilen-C-0](https://storage.net-fs.com/hosting/8065386/20/index.htm)
     - [PR13-Centro de cultivo Gorro-C-0](https://storage.net-fs.com/hosting/8065386/4/index.htm)
     - [PR17-Centro de cultivo Leucayec-C-0](https://storage.net-fs.com/hosting/8065386/3/index.htm)
-    - [PR17-Centro de cultivo Ensenada-C-0](./cc-ensenada/index.htm)
+    - [PR17-Centro de cultivo Ensenada-C-0](https://storage.net-fs.com/hosting/8065386/21/index.htm)
   
   - Pontones
 
