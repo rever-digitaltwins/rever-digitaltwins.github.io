@@ -24,10 +24,10 @@
   - [PR11-Ensenada-C-0](https://storage.net-fs.com/hosting/8065386/17/index.htm)
   - [PR14-Yadran 01-C-0](https://storage.net-fs.com/hosting/8065386/18/index.htm)
   - [PR16-Yadran 03-C-0](https://storage.net-fs.com/hosting/8065386/19/index.htm)
-  - [PR17-HOLA-C-0](https://storage.net-fs.com/hosting/8065386/16/index.htm)
-  - [PR18-Hola1-C-0](https://storage.net-fs.com/hosting/8065386/17/index.htm)
-  - [PR19-Hola2-C-0](https://storage.net-fs.com/hosting/8065386/18/index.htm)
-  - [PR20-Hola3-C-0](https://storage.net-fs.com/hosting/8065386/19/index.htm)
+  - [PR17-Añadir-C-0](https://storage.net-fs.com/hosting/8065386/16/index.htm)
+  - [PR18-Añadir-C-0](https://storage.net-fs.com/hosting/8065386/17/index.htm)
+  - [PR19-Añadir-C-0](https://storage.net-fs.com/hosting/8065386/18/index.htm)
+  - [PR20-Añadir-C-0](https://storage.net-fs.com/hosting/8065386/19/index.htm)
 
 ## Planta de procesos
 
