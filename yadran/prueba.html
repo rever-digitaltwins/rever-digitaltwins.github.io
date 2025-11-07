@@ -82,25 +82,43 @@
     
 </head>
 <body>
-    <div id="viewer" class="fill-viewport"></div>
+    
 
-    <div id="root"></div>
+<div id="viewer" class="fill-viewport"></div>
 
-    <script type="text/babel">
+    
+
+<div id="root"></div>
+
+    
+
+<script type="text/babel">
     const generateNodeId = () => {
       return Math.random().toString(36).substr(2, 9);
     };
 
+    {/* --- CAMBIO PRINCIPAL AQUÍ --- */}
     const Header = () => {
       return (
         <header className="bg-transparent text-white pt-6 pb-3 px-3 sticky top-0 z-50">
-          <div className="container mx-auto flex items-center justify-center">
+          {/* Contenedor cambiado a flex-col para apilar el logo y el título */}
+          <div className="container mx-auto flex flex-col items-center justify-center space-y-4"> 
+            
+            {/* Logo YADRAN */}
             <div className="h-8 md:h-10 flex items-center">
               <img
                 src='./img/logo-negro.svg'
                 className="h-full w-auto" 
               />
             </div>
+
+            {/* Texto "Recorre..." movido aquí */}
+            <h2
+              className="text-5xl lg:text-7xl font-recoleta font-thin text-secondary text-center w-full"
+              style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}
+            >
+              Recorre nuestros gemelos digitales
+            </h2>
           </div>
         </header>
       );
@@ -398,10 +416,13 @@
 
 		return (
 			<div className="min-h-screen flex flex-col">
-			<Header />
-			<main className="flex-grow flex flex-col items-center p-2 sm:p-4"> {/* Cambiado a flex-col para apilar */}
+			
+            {/* Header ahora se encarga del logo y el título */}
+            <Header /> 
+			
+            <main className="flex-grow flex flex-col items-center p-2 sm:p-4"> 
 
-				<div className="max-w-7xl w-full mx-auto"> {/* Contenedor para el Mindmap, ahora en la parte superior */}
+				<div className="max-w-7xl w-full mx-auto"> 
 					<div className="space-y-4">
 					{loadingError && (
 						<div className="p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg shadow-lg text-center font-grotesk">
@@ -416,16 +437,7 @@
 					</div>
 				</div>
 
-
-				<div className="flex flex-col justify-center items-center h-full p-4 lg:p-8 mt-8 lg:mt-0"> {/* El texto ahora debajo */}
-					<h2
-					className="text-5xl lg:text-7xl font-recoleta font-thin text-secondary text-center w-full"
-					style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}
-					>
-					Recorre nuestros gemelos digitales
-					</h2>
-				</div>
-
+                {/* El <div ...> con el h2 que estaba aquí fue ELIMINADO */}
 
 			</main>
 			</div>
