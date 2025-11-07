@@ -82,7 +82,6 @@
             pointer-events: auto;
         }
 
-        /* --- ¡CAMBIO 1: AÑADIDO ESTE BLOQUE CSS! --- */
         /* Oculta la barra de scroll en navegadores WebKit (Chrome, Safari) */
         .hide-scrollbar::-webkit-scrollbar {
             display: none;
@@ -114,10 +113,8 @@
     const Header = () => {
       return (
         <header className="bg-transparent text-white pt-6 pb-3 px-3 sticky top-0 z-50">
-          {/* Contenedor cambiado a flex-col para apilar el logo y el título */}
           <div className="container mx-auto flex flex-col items-center justify-center space-y-4"> 
             
-            {/* Logo YADRAN */}
             <div className="h-8 md:h-10 flex items-center">
               <img
                 src='./img/logo-negro.svg'
@@ -125,9 +122,8 @@
               />
             </div>
 
-            {/* Texto "Recorre..." movido aquí */}
             <h2
-              className="text-5xl lg:text-7xl font-recoleta font-thin text-secondary text-center w-full"
+              className="text-4xl lg:text-6xl font-recoleta font-thin text-secondary text-center w-full"
               style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}
             >
               Recorre nuestros gemelos digitales
@@ -237,16 +233,17 @@
         );
       };
       
+      {/* --- ¡CAMBIO CLAVE AQUÍ! TAMAÑOS DE FUENTE REDUCIDOS --- */}
       let nodeBaseClasses = "flex items-center py-1.5 px-2 hover:bg-secondary rounded transition-colors duration-200 text-text-main";
       if (node.isHeaderLine) {
         nodeBaseClasses += " font-recoleta";
-        if (level === 0) nodeBaseClasses += " font-bold text-2xl mt-2 mb-1"; 
-        else if (level === 1) nodeBaseClasses += " font-semibold text-lg mt-1";
+        if (level === 0) nodeBaseClasses += " font-bold text-lg mt-2 mb-1"; /* Era text-2xl */
+        else if (level === 1) nodeBaseClasses += " font-semibold text-base mt-1"; /* Era text-lg */
       } else {
         nodeBaseClasses += " font-grotesk";
-        if (level === 0) nodeBaseClasses += " font-semibold text-lg"; 
-        else if (level === 1) nodeBaseClasses += " font-medium text-xl";
-        else nodeBaseClasses += " font-grotesk text-xl";
+        if (level === 0) nodeBaseClasses += " font-semibold text-base"; /* Era text-lg */
+        else if (level === 1) nodeBaseClasses += " font-medium text-base"; /* Era text-xl */
+        else nodeBaseClasses += " font-grotesk text-base"; /* Era text-xl */
       }
 
       return (
@@ -307,7 +304,6 @@
               
               <div key={mainCategory.id} className="w-full sm:w-1/2 lg:w-1/4 p-2"> 
                 
-                {/* --- ¡CAMBIO 2: AÑADIDA LA CLASE "hide-scrollbar"! --- */}
                 <div className="p-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-lg w-full max-h-[60vh] overflow-y-auto hide-scrollbar">
                     <MindMapNode node={mainCategory} level={0} onToggleChecked={handleToggleChecked} onToggleExpanded={handleToggleExpanded} />
                 </div>
