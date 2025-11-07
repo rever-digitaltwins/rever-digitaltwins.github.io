@@ -6,7 +6,7 @@
   - [PR9-Piscicultura Aguas Buenas-C-0](https://storage.net-fs.com/hosting/8065386/6/index.htm)
   - [PR10-Piscicultura Las Quemas-C-0](https://storage.net-fs.com/hosting/8065386/5/index.htm)
 
-## Centros de cultivos
+## Centros de cultivo
 
   - [PR13-Centro de cultivo Queilen-C-0](https://storage.net-fs.com/hosting/8065386/20/index.htm)
   - [PR13-Centro de cultivo Gorro-C-0](https://storage.net-fs.com/hosting/8065386/4/index.htm)
