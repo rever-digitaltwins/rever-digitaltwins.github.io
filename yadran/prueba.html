@@ -97,7 +97,6 @@
       return Math.random().toString(36).substr(2, 9);
     };
 
-    {/* --- CAMBIO PRINCIPAL AQUÍ --- */}
     const Header = () => {
       return (
         <header className="bg-transparent text-white pt-6 pb-3 px-3 sticky top-0 z-50">
@@ -288,10 +287,12 @@
       }
 
       return (
-        <div className="p-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-lg w-full"> {/* Añadido w-full aquí */}
-          <div className="flex flex-wrap justify-around"> {/* Usar flex-wrap y justify-around para las columnas */}
+        <div className="p-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-lg w-full"> 
+          <div className="flex flex-wrap justify-around"> 
             {rootNode.children.map(mainCategory => (
-              <div key={mainCategory.id} className="w-full sm:w-1/2 lg:w-1/3 p-2"> {/* Ajustar el ancho de las columnas */}
+              
+              <div key={mainCategory.id} className="w-full sm:w-1/2 lg:w-1/4 p-2"> 
+                
                 <MindMapNode node={mainCategory} level={0} onToggleChecked={handleToggleChecked} onToggleExpanded={handleToggleExpanded} />
               </div>
             ))}
