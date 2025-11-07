@@ -81,6 +81,17 @@
         #root > * {
             pointer-events: auto;
         }
+
+        /* --- ¡CAMBIO 1: AÑADIDO ESTE BLOQUE CSS! --- */
+        /* Oculta la barra de scroll en navegadores WebKit (Chrome, Safari) */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        /* Oculta la barra de scroll en Firefox y IE/Edge */
+        .hide-scrollbar {
+            -ms-overflow-style: none;  /* IE y Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
     </style>
     
 </head>
@@ -289,18 +300,15 @@
           return <div className="p-4 bg-white rounded-lg shadow-lg text-center text-text-main font-grotesk">Cargando datos del mapa...</div>;
       }
 
-      {/* --- ¡CAMBIO CLAVE AQUÍ! --- */}
-      {/* 1. Se eliminó el panel de "p-4 bg-white/40..." que envolvía todo */}
       return (
         <div className="w-full"> 
           <div className="flex flex-wrap justify-around"> 
             {rootNode.children.map(mainCategory => (
               
-              /* 2. Este es el contenedor de la columna (espaciado) */
               <div key={mainCategory.id} className="w-full sm:w-1/2 lg:w-1/4 p-2"> 
                 
-                {/* 3. ¡NUEVO! Panel individual con scroll para CADA columna */}
-                <div className="p-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-lg w-full max-h-[60vh] overflow-y-auto">
+                {/* --- ¡CAMBIO 2: AÑADIDA LA CLASE "hide-scrollbar"! --- */}
+                <div className="p-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-lg w-full max-h-[60vh] overflow-y-auto hide-scrollbar">
                     <MindMapNode node={mainCategory} level={0} onToggleChecked={handleToggleChecked} onToggleExpanded={handleToggleExpanded} />
                 </div>
 
