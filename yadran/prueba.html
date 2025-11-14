@@ -48,9 +48,10 @@
 				'recoleta': ['"Recoleta"', 'sans-serif'],
 				'grotesk': ['"Space Grotesk"', 'sans-serif'],
 			},
-            maxHeight: {
+           maxHeight: {
                 '60vh': '60vh',
-                '70vh': '70vh', /* Añadido para más altura */
+                '70vh': '70vh', 
+                '80vh': '80vh', 
             }
 			},
 		},
@@ -301,7 +302,7 @@
                 
                 {/* --- ¡CAMBIO CLAVE AQUÍ! --- */}
                 {/* Aumentamos la altura a '70vh' para que quepan todos los pontones */}
-                <div className="p-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-lg w-full max-h-[70vh] overflow-y-auto hide-scrollbar">
+                <div className="p-4 bg-white/40 backdrop-blur-sm rounded-lg shadow-lg w-full max-h-[80vh] overflow-y-auto hide-scrollbar">
                     <MindMapNode node={mainCategory} level={0} onToggleChecked={handleToggleChecked} onToggleExpanded={handleToggleExpanded} />
                 </div>
 
